@@ -1,14 +1,11 @@
-# Ignorer les fichiers binaires et les dossiers de sortie
+# Ignorer les dossiers de compilation
 bin/
 obj/
 
-# Fichiers de configuration générés par l'environnement
-*.user
-*.vspscc
-*.vssscc
-
-# Fichiers de builds
+# Ignorer les fichiers DLL
 *.dll
+
+# Ignorer les fichiers spécifiques à .NET
 *.exe
 *.log
 *.pdb
@@ -16,34 +13,15 @@ obj/
 *.mdb
 *.ilk
 *.idb
-*.suo
-*.sln.docstates
 
-# Dossiers spécifiques à Visual Studio
-.vscode/
+# Dossiers spécifiques
 .vs/
+.vscode/
+.idea/
 
-# Fichiers de publication
-.publish/
-
-# Fichiers temporaires
+# Fichiers temporaires et divers
 *.tmp
 *.temp
-
-# Fichiers de paquet
 *.nupkg
 *.snupkg
-
-# Logs
-*.log
-
-# Fichiers de déploiement
-*.deploy
-*.publishsettings
-
-# Autres fichiers ignorés
-_ReSharper*/
-*.resharper
-.idea/
-.DS_Store
-Thumbs.db
+.publish/
