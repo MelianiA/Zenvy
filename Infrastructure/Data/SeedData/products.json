@@ -1,0 +1,200 @@
+[
+  {
+    "Name": "Samsung Galaxy S24 FE",
+    "ArabicName": "موبايل سامسونج جالاكسي FE S24",
+    "Description": "Samsung Galaxy S24 FE, AI Phone, Android Smartphone, 8GB RAM, 256GB Storage, 50MP Camera, Long Battery Life, Large Screen, Graphite - 1 Year Warranty/Local Version",
+    "ArabicDescription": "موبايل سامسونج جالاكسي FE S24 بنظام أندرويد بذاكرة رام 8 جيجا وسعة تخزينية 256 وكاميرا 50 ميجابكسل يتميز بعمر بطارية طويل وشاشة كبيرة جرافيت إصدار محلي",
+    "Price": 3950000,
+    "PictureUrl": "/images/products/S_M1.jpg",
+    "Type": "Mobile Phones",
+    "Brand": "Samsung",
+    "QuantityInStock": 82
+  },
+  {
+    "Name": "Samsung Galaxy Buds3 Pro",
+    "ArabicName": "سامسونج سماعات جالكسي بادز 3 برو",
+    "Description": "Samsung Galaxy Buds3 Pro, Wireless Bluetooth Earbuds with Adaptive: Noise Control, Hi-Fi Sound, 360 Audio-Silver - 1 Year Local Warranty",
+    "ArabicDescription": "سامسونج سماعات جالكسي بادز 3 برو ، فضي بلوتوث لاسلكية مع خاصية التكيف: التحكم في الضوضاء صوت هاي فاي 360 اصدار الامارات العربية المتحدة، داخل الأذن",
+    "Price": 917500,
+    "PictureUrl": "/images/products/S_H1.jpg",
+    "Type": "Earbuds",
+    "Brand": "Samsung",
+    "QuantityInStock": 90
+  },
+  {
+    "Name": "Samsung 50 Inch QLED Smart TV",
+    "ArabicName": "تلفزيون سمارت بشاشة QLED مقاس 50 بوصة",
+    "Description": "Samsung 50 Inch QLED Smart TV Neural HDR Quantum Processor Lite 4K - QA50Q60DAUXEG [2024 Model]",
+    "ArabicDescription": "تلفزيون سمارت بشاشة QLED مقاس 50 بوصة من سامسونج، معالج نيورال كوانتوم بتقنية المدى الديناميكي العالي HDR بدقة لايت 4K، QA50Q60DAUXEG [موديل 2024]، أسود",
+    "Price": 2050000,
+    "PictureUrl": "/images/products/S_T1.jpg",
+    "Type": "TV",
+    "Brand": "Samsung",
+    "QuantityInStock": 55
+  },
+  {
+    "Name": "Samsung Galaxy S24 Ultra",
+    "ArabicName": "جوال سامسونج جالكسي اس 24 الترا",
+    "Description": "Samsung Galaxy S24 Ultra, AI Phone, 256GB Storage, Titanium Gray, 12GB RAM, Android Smartphone, 200MP Camera, S Pen, Long Battery Life",
+    "ArabicDescription": "جوال سامسونج جالكسي اس 24 الترا، ذاكرة تخزين 256GB، لون رمادي تيتانيوم - RAM 12GB، هاتف ذكي يعمل بنظام اندرويد، كاميرا 200 ميجابكسل، قلم S، عمر بطارية طويل، بشريحتين",
+    "Price": 4950000,
+    "PictureUrl": "/images/products/S_M2.jpg",
+    "Type": "Mobile Phones",
+    "Brand": "Samsung",
+    "QuantityInStock": 70
+  },
+  {
+    "Name": "SAMSUNG Galaxy Watch 6 Classic",
+    "ArabicName": "ساعة ذكية سامسونج جالاكسي 6",
+    "Description": "SAMSUNG Galaxy Watch 6 Classic 47mm Bluetooth Smartwatch, Rotating Bezel, Fitness Tracker, Personalized HR Zones, Advanced Sleep Coaching, Heart Monitor, BIA Sensor, Health Insights, US Version, Black",
+    "ArabicDescription": "ساعة ذكية سامسونج جالاكسي 6 مقاس 47 ملم بتقنية البلوتوث مع جهاز تتبع اللياقة البدنية/نطاق مخصص لمعدل ضربات القلب/تدريب متقدم على النوم/مراقب نبضات القلب/مستشعر تحليل المعاوقة الكهربائية الحيوية، أ",
+    "Price": 2400000,
+    "PictureUrl": "/images/products/S_W1.jpg",
+    "Type": "Smart Watches",
+    "Brand": "Samsung",
+    "QuantityInStock": 44
+  },
+  {
+    "Name": "Samsung Galaxy Fit3 Band",
+    "ArabicName": "ساعة بسوار سامسونج جالاكسي من فيت 3",
+    "Description": "Samsung Galaxy Fit3 Band, Exercise and Sleep Tracking, Fall Detection, Bluetooth, 40mm - Gray-1 Year Warranty/Local Version",
+    "ArabicDescription": "ساعة بسوار سامسونج جالاكسي من فيت 3، تتبع التمارين والنوم وتكشف عن السقوط، مدعومة بتقنية البلوتوث، 40 ملم- بلون رمادي",
+    "Price": 250000,
+    "PictureUrl": "/images/products/S_W2.jpg",
+    "Type": "Smart Watches",
+    "Brand": "Samsung",
+    "QuantityInStock": 67
+  },
+  {
+    "Name": "Apple AirPods 4 ANC Wireless Earbuds",
+    "ArabicName": "ابل سماعات داخل الأذن ايربودز 4",
+    "Description": "Apple AirPods 4 ANC Wireless Earbuds, Bluetooth Headphones, Active Noise Cancellation, Adaptive Audio, Transparency Mode, Personalized Spatial Audio, USB-C Charging Case, Wireless Charging, H2 Chip",
+    "ArabicDescription": "ابل سماعات داخل الأذن ايربودز 4 بلوتوث مع خاصية الغاء الضوضاء النشطة صوت تكيفي علبة شحن USB-C لاسلكي شريحة H2 - أبيض",
+    "Price": 1020000,
+    "PictureUrl": "/images/products/A_H1.jpg",
+    "Type": "Earbuds",
+    "Brand": "Apple",
+    "QuantityInStock": 15
+  },
+  {
+    "Name": "Apple iPhone 16 Pro Max",
+    "ArabicName": "ابل موبايل ايفون 16 برو ماكس",
+    "Description": "Apple iPhone 16 Pro Max (256 GB) - Desert Titanium",
+    "ArabicDescription": "ابل موبايل ايفون 16 برو ماكس بشريحتين (256 جيجابايت) - ديزرت تيتانيوم",
+    "Price": 7200000,
+    "PictureUrl": "/images/products/A_M1.jpg",
+    "Type": "Mobile Phones",
+    "Brand": "Apple",
+    "QuantityInStock": 18
+  },
+  {
+    "Name": "Apple Watch Series 9",
+    "ArabicName": "ساعة يد ذكية آبل ووتش الفئة 9",
+    "Description": "Apple Watch Series 9 [GPS 45mm] Smartwatch with Midnight Aluminum Case with Midnight Sport Band, Unisex",
+    "ArabicDescription": "ساعة يد ذكية آبل ووتش الفئة 9 بتقنية تحديد المواقع GPS وهيكل من الألومنيوم وسوار رياضي بلون ميدنايت وشاشة مقاس 45 ملليمتر، أزرق",
+    "Price": 3200000,
+    "PictureUrl": "/images/products/A_W1.jpg",
+    "Type": "Mobile Phones",
+    "Brand": "Apple",
+    "QuantityInStock": 34
+  },
+  {
+    "Name": "Apple iPhone 13 with FaceTime",
+    "ArabicName": "ابل ايفون 13 مع فيس تايم",
+    "Description": "Apple iPhone 13 with FaceTime - 128GB, 4GB RAM, 4G LTE, Midnight black, Single SIM & E-SIM - International Warranty",
+    "ArabicDescription": "ابل ايفون 13 مع فيس تايم - 128 جيجا رام 4 الجيل الرابع ال تي اي اسود ميدنايت شريحة واحدة وشريحة الكترونية ضمان دولي",
+    "Price": 3500000,
+    "PictureUrl": "/images/products/A_M2.jpg",
+    "Type": "Mobile Phones",
+    "Brand": "Apple",
+    "QuantityInStock": 25
+  },
+  {
+    "Name": "Apple Watch Ultra 2 GPS + Cellular",
+    "ArabicName": "ساعة ذكية الترا 2 جي بي اس + خلوية",
+    "Description": "Apple Watch Ultra 2 GPS + Cellular 49mm Smartwatch, Sports Watch with Black Rugged Titanium Case and Dark Green Alpine Loop - M. Fitness Tracker, Precision GPS, Extra-Long Battery Life, Carbon Neutral",
+    "ArabicDescription": "ساعة ذكية الترا 2 جي بي اس + خلوية 49 ملم من ابل، ساعة رياضية بهيكل أود متين من التيتانيوم وحلقة الباين خضراء داكنة - متتبع لياقة بدنية، نظام تحديد المواقع العالمي الدقيق، عمر بطارية طويل للغاية،",
+    "Price": 4500000,
+    "PictureUrl": "/images/products/A_W2.jpg",
+    "Type": "Smart Watches",
+    "Brand": "Apple",
+    "QuantityInStock": 65
+  },
+  {
+    "Name": "Apple 2023 MacBook Air laptop",
+    "ArabicName": "ل ماك بوك اير 2023 مع شريحة",
+    "Description": "Apple 2023 MacBook Air laptop with M2 chip: 15.3-inch Liquid Retina display, 8GB GB RAM, 256GB;GB SSD storage, Touch ID. Works with iPhone/iPad; Space Grey; English",
+    "ArabicDescription": "لاب توب ابل ماك بوك اير 2023 مع شريحة M2: شاشة ليكويد ريتينا 15.3 بوصة، ذاكرة رام 8 جيجابايت، SSD 256 خاصية تعرف على بصمة الإصبع باللمس، يعمل ايفون وايباد؛ لون رمادي سبيس؛ يدعم اللغة",
+    "Price": 6200000,
+    "PictureUrl": "/images/products/A_L1.jpg",
+    "Type": "Laptop",
+    "Brand": "Apple",
+    "QuantityInStock": 12
+  },
+  {
+    "Name": "HP Victus Gaming Laptop",
+    "ArabicName": "لاب توب للألعاب فيكتوس من اتش بي",
+    "Description": "HP Victus Gaming Laptop (15-fb1004ne), CPU: Ryzen 5-7535HS, 16GB DDR5 2DM 4800 Graphics Card: NVIDIA GeForce RTX 2050, VRAM: 4GB, Display: 15.6 FHD Antiglare IPS 250 nits 144Hz, 512GB, Windows 11",
+    "ArabicDescription": "لاب توب للألعاب فيكتوس من اتش بي، CPU: رايزن 5-7535HS، ذاكرة 16GB DDR5 2DM 4800، الشاشة: شاشة 15.6 FHD مضادة للتوهج IPS 250 وحدة مضيئة في البكسل 144Hz بحواف ضيقة مسطحة، 512GB، ويندوز 11",
+    "Price": 3300000,
+    "PictureUrl": "/images/products/A_L1.jpg",
+    "Type": "Laptop",
+    "Brand": "HP",
+    "QuantityInStock": 19
+  },
+  {
+    "Name": "LG 55 Inch NanoCell NANO80T 4K",
+    "ArabicName": "تلفزيون سمارت نانو سيل بدقة 4 كيه",
+    "Description": "LG 55 Inch NanoCell NANO80T 4K Smart TV AI Magic remote HDR10 webOS24-55NANO80T6A 2024",
+    "ArabicDescription": "تلفزيون سمارت نانو سيل بدقة 4 كيه LG 55 بوصة بتقنية الذكاء الاصطناعي بخاصية HDR 10 webOS24 55NANO80T6A (2024) أسود",
+    "Price": 2600000,
+    "PictureUrl": "/images/products/LG_T1.jpg",
+    "Type": "TV",
+    "Brand": "LG",
+    "QuantityInStock": 130
+  },
+  {
+    "Name": "LG 55 Inch QNED QNED80T 4K",
+    "ArabicName": "تلفزيون ذكي QNED80T بدقة LG 55 بوصة 4K",
+    "Description": "LG 55 Inch QNED QNED80T 4K Smart TV AI Magic remote HDR10 webOS24-55QNED80T6B (2024)",
+    "ArabicDescription": "تلفزيون ذكي QNED80T بدقة LG 55 بوصة 4K بتقنية الذكاء الاصطناعي ماجيك بخاصية HDR 10 webOS24-55QNED80T6B 2024، أسود",
+    "Price": 3500000,
+    "PictureUrl": "/images/products/LG_T2.jpg",
+    "Type": "TV",
+    "Brand": "LG",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "Realme C65 4G, 8GB Ram, 256GB",
+    "ArabicName": "موبايل ريلمي c65 الذكي 8+256 جيجابايت",
+    "Description": "realme Note 50 DUAL SIM 64GB ROM + 3GB RAM (GSM ONLY | NO CDMA) Factory Unlocked 4G/LTE Smartphone (Midnight Black) - International Version",
+    "ArabicDescription": "موبايل ريلمي c65 الذكي 8+256 جيجابايت بشريحتين ، كاميرا بدقة 50 ميجابكسل، شاشة 6.67 بوصة مع معدل تحديث 90 هرتز، شحن سريع بقوة 45 وات، بطارية صلبة 5000 ميلي امبير في الساعة، NFC، اسود",
+    "Price": 725000,
+    "PictureUrl": "/images/products/RE_M1.jpg",
+    "Type": "Mobile Phones",
+    "Brand": "Realme",
+    "QuantityInStock": 35
+  },
+  {
+    "Name": "DELL G15 5520 Gaming Laptop - 12th Intel Core i7",
+    "ArabicName": "ديل لاب توب العاب G15 5520 - انتل كور i7-",
+    "Description": "DELL G15 5520 Gaming Laptop - 12th Intel Core i7-12700H 14 Cores,16GB DDR5-4800 Mhz RAM, 1 TB SSD, Nvidia Geforce RTX 3060 6GB GDDR6 Graphics, 15.6 FHD (1920X1080) 165 Hz, Backlit Keyboard,Windows 11",
+    "ArabicDescription": "ديل لاب توب العاب G15 5520 - انتل كور i7-12700H الجيل 12 14 نواة 16 جيجا DDR5-4800 ميجاهرتز 1 تيرا SSD انفيديا جيفورس RTX 3060 GDDR6 شاشة 15.6 بوصة FHD (1920X1080) 165Hz كيبورد باضاءة خلفية ويندوز 11",
+    "Price": 4900000,
+    "PictureUrl": "/images/products/D_L1.jpg",
+    "Type": "Laptop",
+    "Brand": "Dell",
+    "QuantityInStock": 20
+  },
+  {
+    "Name": "Dell Inspiron 14-7430 2n1 X360 13th Intel Core i7",
+    "ArabicName": "لاب توب انسبيرون 14-7430 2 في 1 قابل للتحويل",
+    "Description": "Dell Inspiron 14-7430 2n1 X360 Laptop - 13th Intel Core i7-1355U 10 Cores, 16GB DDR5 RAM, 1TB SSD, Intel Iris Graphics, 14 FHD (1920x1200) Touch, Backlit KB, FinderPrint, windows 11 - Silver",
+    "ArabicDescription": "لاب توب انسبيرون 14-7430 2 في 1 قابل للتحويل انتل كور 13-i7 جيل 13 10 نواة 8 16 512 جيجا ايريس جرافيكس شاشة لمس 1920x1200 14 بوصة تيرا لوحة مفاتيح بإضاءة خلفية فايندر برينت فضي من ديل ويندوز 11",
+    "Price": 5600000,
+    "PictureUrl": "/images/products/D_L2.jpg",
+    "Type": "Laptop",
+    "Brand": "Dell",
+    "QuantityInStock": 34
+  }
+]
