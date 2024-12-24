@@ -1,0 +1,49 @@
+# Ignorer les fichiers binaires et les dossiers de sortie
+bin/
+obj/
+
+# Fichiers de configuration générés par l'environnement
+*.user
+*.vspscc
+*.vssscc
+
+# Fichiers de builds
+*.dll
+*.exe
+*.log
+*.pdb
+*.cache
+*.mdb
+*.ilk
+*.idb
+*.suo
+*.sln.docstates
+
+# Dossiers spécifiques à Visual Studio
+.vscode/
+.vs/
+
+# Fichiers de publication
+.publish/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers de paquet
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+
+# Fichiers de déploiement
+*.deploy
+*.publishsettings
+
+# Autres fichiers ignorés
+_ReSharper*/
+*.resharper
+.idea/
+.DS_Store
+Thumbs.db
