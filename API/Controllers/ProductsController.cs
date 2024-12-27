@@ -13,9 +13,9 @@ namespace API.Controllers
     public class ProductsController(IProductRepository repo) : ControllerBase
     {
         [HttpGet] // api/products
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts()
+        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(string? type = null, string? brand = null)
         {
-            return Ok(await repo.GetProductsAsync());
+            return Ok(await repo.GetProductsAsync(type, brand));
         }
 
         [HttpGet("{id:int}")] // api/products/2
