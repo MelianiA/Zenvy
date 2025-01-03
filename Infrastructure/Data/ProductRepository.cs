@@ -26,13 +26,20 @@ public class ProductRepository(ApplicationDbContext context) : IProductRepositor
         return await context.Products.FindAsync(id);
     }
 
-    public async Task<IReadOnlyList<Product?>> GetProductsAsync(string? type = null, string? brand = null)
+    public async Task<IReadOnlyList<Product?>> GetProductsAsync(string? type = null, string? brand = null, string? sort = null)
     {
         var query = context.Products.AsQueryable();
 
         if (!string.IsNullOrEmpty(type)) query = query.Where(p => p.Type == type);
 
         if (!string.IsNullOrEmpty(brand)) query = query.Where(p => p.Brand == brand);
+
+        query = sort switch
+        {
+            "priceAsc" => query.OrderBy(p => p.Price),
+            "priceDesc" => query.OrderByDescending(p => p.Price),
+            _ => query.OrderBy(p => p.Name)
+        };
 
         return await query.ToListAsync();
     }
