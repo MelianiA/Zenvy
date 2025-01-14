@@ -1,5 +1,6 @@
 using Core.Entities;
 using Core.Interfaces;
+using Core.Specifications;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -15,7 +16,8 @@ namespace API.Controllers
         [HttpGet] // api/products
         public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(string? type = null, string? brand = null, string? sort = null)
         {
-            return Ok(await repo.GetAllAsync());
+            var products = await repo.GetAllWithSpec(new ProductSpecification(type, brand, sort));
+            return Ok(products);
         }
 
         [HttpGet("{id:int}")] // api/products/2
@@ -72,16 +74,16 @@ namespace API.Controllers
             return repo.Exists(id);
         }
 
-        // [HttpGet("types")] // api/products/types
-        // public async Task<ActionResult<IReadOnlyList<string>>> GetProductTypes()
-        // {
-        //     return Ok(await repo.GetTypesAsync());
-        // }
+        [HttpGet("types")] // api/products/types
+        public async Task<ActionResult<IReadOnlyList<string>>> GetProductTypes()
+        {
+            return Ok(await repo.GetTypesAsync());
+        }
 
-        // [HttpGet("brands")] // api/products/brands
-        // public async Task<ActionResult<IReadOnlyList<string>>> GetProductBrands()
-        // {
-        //     return Ok(await repo.GetBrandsAsync());
-        // }
+        [HttpGet("brands")] // api/products/brands
+        public async Task<ActionResult<IReadOnlyList<string>>> GetProductBrands()
+        {
+            return Ok(await repo.GetBrandsAsync());
+        }
     }
 }

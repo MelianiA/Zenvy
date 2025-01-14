@@ -12,8 +12,31 @@ public class SpecificationEvaluator<T> where T : BaseEntity
 
         if (spec.Criteria != null)
             query = query.Where(spec.Criteria);
-            
+
+        if (spec.OrderBy != null)
+            query = query.OrderBy(spec.OrderBy);
+
+        if (spec.OrderByDescending != null)
+            query = query.OrderByDescending(spec.OrderByDescending);
+
         return query;
     }
 
+    public static IQueryable<TResult> GetQuery<TSpec, TResult>(IQueryable<T> query, ISpecification<T, TResult> spec)
+    {
+        if (spec.Criteria != null)
+            query = query.Where(spec.Criteria);
+
+        if (spec.OrderBy != null)
+            query = query.OrderBy(spec.OrderBy);
+
+        if (spec.OrderByDescending != null)
+            query = query.OrderByDescending(spec.OrderByDescending);
+
+        var slectQuery = query as IQueryable<TResult>;
+        if (spec.Select != null)
+            slectQuery = query.Select(spec.Select);
+
+        return slectQuery ?? query.Cast<TResult>();
+    }
 }
