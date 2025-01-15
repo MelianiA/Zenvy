@@ -5,9 +5,11 @@ namespace Core.Specifications;
 
 public class ProductSpecification : BaseSpecification<Product>
 {
-    public ProductSpecification(string? type, string? brand, string? sort) : base(p => (string.IsNullOrEmpty(type) || p.Type == type) && (string.IsNullOrEmpty(brand) || p.Brand == brand))
+    public ProductSpecification(ProductSpecParams productParams) :
+        base(p => (productParams.Brands.Count == 0 || productParams.Brands.Contains(p.Brand)) &&
+                  (productParams.Types.Count == 0 || productParams.Types.Contains(p.Type)))
     {
-        switch(sort)
+        switch (productParams.Sort)
         {
             case "priceAsc":
                 AddOrderBy(p => p.Price);

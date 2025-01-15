@@ -14,9 +14,9 @@ namespace API.Controllers
     public class ProductsController(IGenericRepository<Product> repo) : ControllerBase
     {
         [HttpGet] // api/products
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(string? type = null, string? brand = null, string? sort = null)
+        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts([FromQuery]ProductSpecParams productParams)
         {
-            var products = await repo.GetAllWithSpec(new ProductSpecification(type, brand, sort));
+            var products = await repo.GetAllWithSpec(new ProductSpecification(productParams));
             return Ok(products);
         }
 
@@ -77,13 +77,13 @@ namespace API.Controllers
         [HttpGet("types")] // api/products/types
         public async Task<ActionResult<IReadOnlyList<string>>> GetProductTypes()
         {
-            return Ok(await repo.GetTypesAsync());
+            return Ok(await repo.GetAllWithSpec(new TypeListSpecification()));
         }
 
         [HttpGet("brands")] // api/products/brands
         public async Task<ActionResult<IReadOnlyList<string>>> GetProductBrands()
         {
-            return Ok(await repo.GetBrandsAsync());
+            return Ok(await repo.GetAllWithSpec(new BrandListSpecification()));
         }
     }
 }
