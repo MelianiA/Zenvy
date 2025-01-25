@@ -1,4 +1,3 @@
-using System;
 using Core.Entities;
 using Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -70,5 +69,13 @@ public class GenericRepository<T>(ApplicationDbContext context) : IGenericReposi
     private IQueryable<TResult> ApplySpecification<TResult>(ISpecification<T,TResult> spec)
     {
         return SpecificationEvaluator<T>.GetQuery<T, TResult>(context.Set<T>().AsQueryable(), spec);
+    }
+
+    public async Task<int> CountAsync(ISpecification<T> spec)
+    {
+        var query = context.Set<T>().AsQueryable();
+        query = spec.ApplyCriteria(query);
+
+        return await query.CountAsync();
     }
 }

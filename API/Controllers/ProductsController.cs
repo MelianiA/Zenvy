@@ -1,3 +1,4 @@
+using API.RequestsHelper;
 using Core.Entities;
 using Core.Interfaces;
 using Core.Specifications;
@@ -9,15 +10,14 @@ namespace API.Controllers
     /// Initializes a new instance of the <see cref="ProductsController"/> class with the specified database context.
     /// </summary>
     /// <param name="context">The database context used to access the products data.</param>
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductsController(IGenericRepository<Product> repo) : ControllerBase
+   
+    public class ProductsController(IGenericRepository<Product> repo) : BaseApiController
     {
         [HttpGet] // api/products
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts([FromQuery]ProductSpecParams productParams)
+        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts([FromQuery] ProductSpecParams productParams)
         {
-            var products = await repo.GetAllWithSpec(new ProductSpecification(productParams));
-            return Ok(products);
+            var spec = new ProductSpecification(productParams);
+            return await CreatePageResult(repo, spec, productParams.PageSize, productParams.PageIndex);
         }
 
         [HttpGet("{id:int}")] // api/products/2
@@ -47,9 +47,9 @@ namespace API.Controllers
             if (product.Id != id || !ProductExists(id))
                 return BadRequest("Cannot update this product");
 
-            repo.Update(product); 
+            repo.Update(product);
 
-            if(await repo.SaveAllAsync())   
+            if (await repo.SaveAllAsync())
                 return NoContent();
 
             return BadRequest();
@@ -63,7 +63,7 @@ namespace API.Controllers
             if (product == null) return NotFound();
 
             repo.Delete(product);
-            if(await repo.SaveAllAsync())
+            if (await repo.SaveAllAsync())
                 return NoContent();
 
             return BadRequest();
