@@ -1,0 +1,11 @@
+<div class="flex gap-3 mb-3">
+  <button mat-flat-button (click)="openFiltersDialog()">
+    <mat-icon>filter_list</mat-icon>
+    Filters
+  </button>
+</div>
+<div class="grid grid-cols-4 gap-4">
+  @for (product of products; track product.id) {
+  <app-product-item [product]="product"></app-product-item>
+  }
+</div>
