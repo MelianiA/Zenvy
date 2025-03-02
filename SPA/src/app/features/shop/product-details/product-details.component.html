@@ -1,0 +1,61 @@
+@if (product) {
+    <section class="py-4">
+      <div class="max-w-screen-2xl px-4 mx-auto">
+        <div class="grid grid-cols-2 gap-8">
+          <div
+            class="max-w-screen-2xl w-full mx-auto bg-white border-2 border-solid p-2 rounded-xl"
+            style="border-color: var(--mat-sys-primary)"
+          >
+            <pinch-zoom backgroundColor="#fff">
+              <img
+                class="mx-auto"
+                src="{{ product.pictureUrl }}"
+                alt="product image"
+              />
+            </pinch-zoom>
+          </div>
+    
+          <div>
+            <p class="text-3xl font-bold text-gray-900">
+              {{ product.name }}
+            </p>
+            <div class="flex items-center gap-4 mt-4">
+              <p class="text-2xl font-extrabold text-gray-900">
+                {{ product.price / 10000 }} EUR
+              </p>
+            </div>
+    
+            <div class="flex gap-4 mt-6 ml-7">
+              <mat-form-field appearance="outline" class="custom w-1/5 ml-6">
+                <input
+                  min="1"
+                  matInput
+                  type="number"
+                  placeholder="Enter quantity..."
+                />
+              </mat-form-field>
+              <button mat-flat-button class="ml-5 text-base">
+                <mat-icon>shopping_cart</mat-icon>
+                Add to cart
+              </button>
+            </div>
+    
+            <mat-divider></mat-divider>
+    
+            <p class="mt-6 text-gray-500">
+              {{ product.description }}
+            </p>
+          </div>
+        </div>
+        <button
+          routerLink="/"
+          mat-flat-button
+          class="ml-2 mt-3 bg-orange-600 text-base"
+        >
+          <mat-icon>arrow_back</mat-icon>
+          Back to catalog
+        </button>
+      </div>
+    </section>
+    }
+    

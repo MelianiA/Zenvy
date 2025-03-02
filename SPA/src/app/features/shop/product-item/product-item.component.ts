@@ -1,13 +1,14 @@
-import { Component, inject, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Product } from '../../../shared/models/product';
+import { SlicePipe } from '@angular/common';
+import { MatButton } from '@angular/material/button';
 import {
   MatCard,
   MatCardContent,
   MatCardActions,
 } from '@angular/material/card';
 import { MatIcon } from '@angular/material/icon';
-import { MatButton } from '@angular/material/button';
-import { SlicePipe } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-product-item',
@@ -18,12 +19,11 @@ import { SlicePipe } from '@angular/common';
     MatIcon,
     MatButton,
     SlicePipe,
+    RouterLink
   ],
   templateUrl: './product-item.component.html',
   styleUrls: ['./product-item.component.css'],
 })
 export class ProductItemComponent {
   @Input() product?: Product;
-
-
 }

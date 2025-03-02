@@ -1,9 +1,14 @@
 @if (product) {
-<mat-card class="cursor-pointer">
+<mat-card>
   <div
     class="flex justify-center items-center h-96 p-2 bg-white rounded-b-none rounded-2xl"
   >
-    <img src="{{ product.pictureUrl }}" alt="{{ product.name }}" />
+    <img
+      class="cursor-pointer"
+      src="{{ product.pictureUrl }}"
+      alt="{{ product.name }}"
+      routerLink="/catalog/product/{{ product.id }}"
+    />
   </div>
   <mat-card-content class="mt-2">
     <p class="text-md font-bold uppercase">
@@ -12,11 +17,13 @@
     <p class="text-md text-gray-600">{{ product.price / 10000 }} EUR</p>
   </mat-card-content>
   <mat-card-actions class="flex justify-between uppercase">
-    <button mat-button>view details <mat-icon>preview</mat-icon></button>
+    <button routerLink="/catalog/product/{{ product.id }}" mat-button>
+      view details <mat-icon>preview</mat-icon>
+    </button>
     <button mat-button>
       <mat-icon>add_shopping_cart</mat-icon>
       Add to cart
     </button>
-  </mat-card-actions> 
+  </mat-card-actions>
 </mat-card>
 }

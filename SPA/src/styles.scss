@@ -23,3 +23,45 @@ body {
     var(--mat-sys-surface)
   );
 }
+
+.container-fluid {
+  @apply w-full px-4 mx-auto;
+}
+
+:root {
+  @include mat.paginator-overrides(
+    (
+      select-trigger-text-size: text-base,
+      container-size: text-base,
+    )
+  );
+
+  .custom .mat-mdc-text-field-wrapper {
+    height: 43px !important;
+    width: 160% !important;
+    margin-left: -40% !important;
+    padding-bottom: -15px !important;
+    font-size: large !important;
+  }
+
+  .custom .mat-mdc-form-field-infix {
+    padding-top: 10px !important;
+  }
+
+  .custom .mat-mdc-text-field-wrapper {
+    height: 43px !important;
+    width: 160% !important;
+    margin-left: -40% !important;
+    padding-bottom: -15px !important;
+    font-size: large !important;
+  }
+
+  .custom .mat-mdc-form-field-infix {
+    padding-top: 10px !important;
+  }
+
+  .pz-zoom-button.pz-zoom-control-position-bottom[_ngcontent-ng-c3884157822] {
+    right: 10px !important;
+    left: auto !important;
+  }
+}

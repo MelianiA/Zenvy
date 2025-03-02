@@ -2,21 +2,21 @@
   <div
     class="flex align-middle items-center justify-between w-full max-w-screen-2xl mx-auto"
   >
-    <a class="text-3xl font-bold uppercase cursor-pointer">
+    <a routerLink="/" class="text-3xl font-bold uppercase cursor-pointer">
       <mat-icon class="font-bold">shopping_cart</mat-icon>Zenvy
     </a>
-    <nav class="flex gap-4 my-2 uppercase text-2xl ml-6">
-      <button>CATALOG</button>
-      <button>OFFERS</button>
-      <button>CONTACT</button>
+    <nav class="flex gap-4 my-2 uppercase text-2xl font-medium ml-6">
+      <button routerLink="/catalog" routerLinkActive="active">CATALOG</button>
+      <button routerLink="/offers" routerLinkActive="active">OFFERS</button>
+      <button routerLink="/contact" routerLinkActive="active">CONTACT</button>
     </nav>
     <div class="flex gap-5 align-middle uppercase mt-1">
       <button matBadge="8" class="custom-badge mt-1">
         <mat-icon>shopping_cart</mat-icon>
       </button>
       <div>
-        <button mat-button>Login</button>
-        <button mat-button>Register</button>
+        <button class="text-base" mat-button>Login</button>
+        <button class="text-base" mat-button>Register</button>
       </div>
     </div>
   </div>

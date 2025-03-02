@@ -1,18 +1,24 @@
 .custom-badge .mat-badge-content {
-    width: 24px;
-    height: 24px;
-    font-size: 14px;
-    line-height: 24px;
-    background-color: hwb(29 0% 0%);
-    color: #000;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: hwb(29 0% 0%);
+  color: #000;
+}
+
+.custom-badge .mat-icon {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.mat-icon {
+  font-size: 30px;
+}
+
+button {
+  &.active {
+    color: var(--mat-sys-primary);
   }
-  
-  .custom-badge .mat-icon {
-    font-size: 30px;
-    width: 30px;
-    height: 30px;
-  }
-  
-  .mat-icon {
-    font-size: 30px;
-  }
+}
